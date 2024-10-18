@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct TravelCompanionApp: App {
+    // For CoreData
+    let persistenceController = PersistenceController.shared
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
