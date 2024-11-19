@@ -13,6 +13,7 @@
 		079D224E2BA69A49006EE736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 079D224D2BA69A49006EE736 /* Assets.xcassets */; };
 		079D22512BA69A49006EE736 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 079D22502BA69A49006EE736 /* Preview Assets.xcassets */; };
 		07A766B72CEC0DE7008A7AAA /* .env in Resources */ = {isa = PBXBuildFile; fileRef = 07A766B62CEC0DE7008A7AAA /* .env */; };
+		07A766BB2CEC161B008A7AAA /* TripViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A766BA2CEC1616008A7AAA /* TripViewModel.swift */; };
 		07C885832BA72D2B00366DD6 /* TripModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C885822BA72D2B00366DD6 /* TripModel.swift */; };
 		07C885852BA7306A00366DD6 /* TripViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C885842BA7306A00366DD6 /* TripViewModel.swift */; };
 		07CCE6952BCDCC58001E7D6E /* TravelCompanion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07CCE6932BCDCC58001E7D6E /* TravelCompanion.xcdatamodeld */; };
@@ -32,6 +33,7 @@
 		079D224D2BA69A49006EE736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		079D22502BA69A49006EE736 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		07A766B62CEC0DE7008A7AAA /* .env */ = {isa = PBXFileReference; lastKnownFileType = text; path = .env; sourceTree = "<group>"; };
+		07A766BA2CEC1616008A7AAA /* TripViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripViewModel.swift; sourceTree = "<group>"; };
 		07C885822BA72D2B00366DD6 /* TripModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripModel.swift; sourceTree = "<group>"; };
 		07C885842BA7306A00366DD6 /* TripViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripViewModel.swift; sourceTree = "<group>"; };
 		07CCE6942BCDCC58001E7D6E /* TravelCompanion.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TravelCompanion.xcdatamodel; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 		079D22482BA69A46006EE736 /* TravelCompanion */ = {
 			isa = PBXGroup;
 			children = (
+				07A766BA2CEC1616008A7AAA /* TripViewModel.swift */,
 				07A766B62CEC0DE7008A7AAA /* .env */,
 				079D22492BA69A46006EE736 /* TravelCompanionApp.swift */,
 				079D224B2BA69A46006EE736 /* ContentView.swift */,
@@ -186,6 +189,7 @@
 				07CCE6AF2BCF3B6F001E7D6E /* ItineraryItemEntity+CoreDataProperties.swift in Sources */,
 				07CCE6B02BCF3B6F001E7D6E /* TripEntity+CoreDataClass.swift in Sources */,
 				07CCE6B12BCF3B6F001E7D6E /* TripEntity+CoreDataProperties.swift in Sources */,
+				07A766BB2CEC161B008A7AAA /* TripViewModel.swift in Sources */,
 				07CCE6B22BCF3B6F001E7D6E /* MessageEntity+CoreDataClass.swift in Sources */,
 				07CCE6B32BCF3B6F001E7D6E /* MessageEntity+CoreDataProperties.swift in Sources */,
 				079D224A2BA69A46006EE736 /* TravelCompanionApp.swift in Sources */,
